@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+.custom-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: bold;
+    color: #282D35;
+    background-color: lightblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.custom-button:hover {
+    background-color: white;
+}
+
+.custom-button:active {
+    transform: scale(0.95);
+}

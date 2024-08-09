@@ -1,0 +1,23 @@
+/* src/TextInput.css */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+.custom-text-box {
+    margin: 10px;
+}
+
+.custom-text-box input {
+    width: 100%; /* Make the text box wider */
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
+    color: #282D35;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.custom-text-box input:focus {
+    border-color: white;
+}
